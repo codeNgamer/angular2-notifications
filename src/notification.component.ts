@@ -32,6 +32,18 @@ import {NotificationsService} from './notifications.service';
                 animate('300ms ease-in-out')
             ]),
 
+            // from top
+            state("fromTop", style({opacity: 1, transform: "translateY(0)"})),
+            transition("* => fromTop", [
+              style({opacity: 0, transform: "translateY(-100%)"}),
+              animate("400ms ease-in-out")
+            ]),
+            state("fromTopOut", style({opacity: 0, transform: "translateY(-100%)"})),
+            transition("fromTop => fromTopOut", [
+              style({opacity: 1, transform: "translateY(0)"}),
+              animate("300ms ease-in-out")
+            ]),
+
             // Rotate
             state('scale', style({opacity: 1, transform: 'scale(1)'})),
             transition('* => scale', [
