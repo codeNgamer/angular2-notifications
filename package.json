@@ -1,6 +1,6 @@
 {
   "name": "angular2-notifications-codengamer",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "An easy to use notification library for angular 2",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "tsc:aot": "ngc -p tsconfig.aot.json",
     "test": "karma start",
     "tsc-test": "cd tests && tsc",
-    "prepublish": "tsc && ngc -p tsconfig.aot.json"
+    "prepublish": "tsc"
   },
   "keywords": [
     "Angular",
