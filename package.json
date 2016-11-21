@@ -1,10 +1,10 @@
 {
-  "name": "angular2-notifications",
-  "version": "0.4.47",
+  "name": "angular2-notifications-codengamer",
+  "version": "0.0.2",
   "description": "An easy to use notification library for angular 2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flauc/angular2-notifications.git"
+    "url": "git+https://github.com/codeNgamer/angular2-notifications.git"
   },
   "scripts": {
     "lint": "tslint ./src/**.ts -t verbose",
@@ -25,9 +25,9 @@
   "author": "filip.lauc93@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flauc/angular2-notifications/issues"
+    "url": "https://github.com/codeNgamer/angular2-notifications/issues"
   },
-  "homepage": "https://github.com/flauc/angular2-notifications",
+  "homepage": "https://github.com/codeNgamer/angular2-notifications",
   "peerDependencies": {
     "@angular/core": "^2.1.2",
     "@angular/common": "^2.1.2",
